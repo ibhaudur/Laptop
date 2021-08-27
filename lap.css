@@ -1,0 +1,140 @@
+
+                .navbar-default{
+                    background-color:#606366;
+                }
+                .navbar-brand{
+                    text-decoration-color: whitesmoke;
+                    padding-left: 60px;
+                    font-size: 38px;
+                    font-variant: small-caps;
+                }
+                .btn{
+                    color:whitesmoke;
+                    border-radius: 3px;
+                    text-transform: uppercase;
+                }
+                .btn.btn:hover{
+                     background: darkgray;
+                     transition: .3s;
+                }
+                #ad{
+                    background: linear-gradient(to right,rgb(247, 193, 220),beige,beige,white);
+                    border-radius: 10px;
+                    
+                }
+                .p{
+                    font-size: 35px;
+                    font-weight: 600;
+                    font-style: unset;
+                   
+                }
+                #op{
+                    background-color: #606366;
+                    height: 850px;
+                    padding-top: 5%;
+                    text-align: center;
+                }
+            
+               section{
+                    background: url(dell-spiderman-edition-inspiron-15-7000-qhd.jpg) no-repeat;
+                    background-size: cover;
+                    height: calc(100vh - 80px);
+                }
+                #pr{
+                    /* background-color:whitesmoke ; */
+                    height: 650px;
+                }
+                img{
+                    width: 90%;
+                    padding-left: 7%;
+                    height: 250px;
+                    padding-top: 20px;
+                }
+                p{
+                    padding-left: 10px;
+                }
+                #im{
+                  padding-right: 5px;
+                }
+                h2{
+                    width: 150px;
+                    background: #656d75;
+                    color: #fff;
+                    font-size: 24px;
+                    padding:5px;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    font-family: sans-serif;
+                    border-radius: 40px 0px 60px 0px;
+                }
+                .product-bottom .fa{
+                    color: #28a745;
+                    font-size: 12px;
+                }
+                .product-bottom h4{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .product-bottom h5{
+                    font-size: 16px;
+                    padding-bottom: 12px;
+                }
+                .overlay{
+                    display: block;
+                    opacity: 0;
+                    position: absolute;
+                    top: 10%;
+                    margin-left: 0;
+                    width: 30px;
+                }
+                .product-top:hover .overlay{
+                    opacity: 1;
+                    margin-left: 5%;
+                    transition: 0.5s;
+                }
+                .overlay .fa{
+                    cursor: pointer;
+                    background-color: #fff;
+                    color: #000;
+                    height: 35px;
+                    width: 35px;
+                    font-size: 18px;
+                    padding: 7px;
+                    margin: 5%;
+                    margin-bottom: 5%;
+                }
+                .overlay .btn-secondary{
+                    background: transparent !important;
+                    border: none !important;
+                    box-shadow: none;
+                }
+                @media (max-width: 1200px){
+                .navbar-brand{
+                font-size: 33px;
+                padding-left: 45px;
+                }
+                .p{
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                }
+                @media (max-width: 992px){
+                .navbar-brand{
+                font-size: 30px;
+                padding-left: 30px;
+                }
+                .p{
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                }
+                @media (max-width: 768px){
+                .navbar-brand{
+                font-size: 27px;
+                padding-left: 15px;
+                }
+                .p{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                }
